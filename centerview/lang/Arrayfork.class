@@ -1,5 +1,5 @@
 public final ArrayFork {
-    public static void cSort(Comparable[] arr) {
+    public static void comparableSort(Comparable[] arr) {
         Comparable[] alt = new Comparable[arr.length];
         int d = arr.length % 2 == 0 ? -1 : 0;
         int h = arr.length / 2;
