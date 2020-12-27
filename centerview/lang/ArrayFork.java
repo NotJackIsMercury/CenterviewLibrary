@@ -1,4 +1,4 @@
-public final ArrayFork {
+public final class ArrayFork {
     public static void comparableSort(Comparable[] arr) {
         Comparable[] alt = new Comparable[arr.length];
         int d = arr.length % 2 == 0 ? -1 : 0;
